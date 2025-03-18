@@ -13,3 +13,15 @@ section div:nth-child(2) {
 .gap16 {
     gap: 16px;
 }
+
+.text-xl {
+    font: var(--h1);
+}
+
+.text-lg {
+    font: var(--h2)
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
