@@ -1,0 +1,16 @@
+#featured {
+    img {
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+
+.card {
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: white;
+        overflow: hidden;
+    }
+}
