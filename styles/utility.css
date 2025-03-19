@@ -6,8 +6,10 @@
     grid-auto-flow: column;
 }
 
-section div:nth-child(2) {
+.section-primary  div:nth-child(2) {
     grid-template-columns: 1fr 1fr;
+
+    
 }
 
 .gap16 {
@@ -25,3 +27,5 @@ section div:nth-child(2) {
 .text-sm {
     font: var(--text-sm);
 }
+
+
